@@ -1,0 +1,59 @@
+.test_box0 {
+    background-color: #DFDFDF;
+    height: 700px;
+    padding-top: 30px;
+}
+
+.test_box0 h1 {
+    color: #787878;
+    font-size: 50px;
+    font-family: 'Suez One', serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+.test_content {
+    background-color: #DFDFDF;
+    height: 450px;
+    padding-top: 30px;
+    padding-left: 55px;
+    padding-right: 55px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.test_content h2 {
+    color: #787878;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-family: 'Roboto',sans-serif;
+}
+
+.test_content p {
+    text-align: center;
+    font-size: 23px;
+}
+
+
+.GPA {
+    width: 300px;
+    height: 400px;
+    float: left;
+}
+
+
+.TOEFL {
+    width: 300px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.GRE {
+    width: 300px;
+    height: 400px;
+    float: right;
+}

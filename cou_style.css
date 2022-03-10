@@ -1,0 +1,169 @@
+.cou_box0 {
+    height: 200px;
+    background-color: #E5E5E4;
+}
+
+
+.cou_box0 h1 {
+    color: #787878;
+    font-size: 50px;
+    font-family: 'Suez One', serif;
+    font-weight: 200;
+    text-align: center;
+    margin-top: 0;
+    padding-top: 55px;
+}
+
+.cou_box0 h2 {
+    text-align: center;
+    color: #787878;
+}
+
+.cou_box1 {
+    height: 1500px;
+    background-color: #D2D2D2;
+}
+
+.cou1 {
+    height: 1500px;
+    background-color: #D2D2D2;
+    padding: 30px 30px 0 30px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cou_h1 {
+    color: #414141;
+    font-style: italic;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.cou_h2 {
+    float: left;
+    font-family: 'Libre Baskerville', serif;
+    margin-left: 80px;
+    word-spacing: 3px;
+    width: 1080px;
+}
+
+.cou_p {
+    float: left;
+    width: 850px;
+    margin: 30px 30px 10px 100px;
+    font-size: 23px;
+    font-weight: lighter;
+    text-align: justify;
+}
+
+.cou_box2 {
+    height: fit-content;
+    background-color: #E5E5E4;
+}
+
+.cou2 {
+    height: 900px;
+    background-color: #E5E5E4;
+    padding: 30px 30px 0 30px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.cou2 img {
+    width: 445px;
+    height: 300px;
+    margin: 40px 0 10px 320px;
+}
+
+.cou2 a {
+    float: left;
+    margin-top: 30px;
+    margin-left: 460px;
+    font-size: 23px;
+}
+
+.cou_p2 {
+    font-weight: lighter;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.cou_box3 {
+    background-color: #D2D2D2;
+    height: fit-content;
+}
+
+.cou3 {
+    background-color: #D2D2D2;
+    height: 1800px;
+    max-width: 1080px;
+    padding: 30px 30px 0 30px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.cou3 p {
+    font-weight: lighter;
+    font-size: 18px;
+    width: 550px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.CRISPR_img {
+    margin: 40px 0 10px 265px;
+    width: 557px;
+    height: 662px;
+}
+
+.UAS_img {
+    width: 834px;
+    height: 467px;
+    margin: 40px 0 10px 160px;
+}
+
+/* Frame setting begins */
+
+.frame {
+    width: 1080px;
+}
+
+.photolist {
+    float: left;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    width: fit-content;
+    height: fit-content;
+    box-shadow: 0 0 15px rgb(87, 86, 86);
+}
+
+
+.photolist img{
+    width: 800px;
+    height: auto;
+}
+
+.arrow_l {
+    margin-left: 30px;
+    margin-top: 180px;
+    margin-right: 20px;
+    float: left;
+    width: 80px;
+    height: auto;
+}
+
+.arrow_r {
+    margin-left: 20px;
+    margin-top: 180px;
+    margin-right: 30px;
+    float: right;
+    width: 80px;
+    height: auto;
+}
+
+/* Frame setting ends */

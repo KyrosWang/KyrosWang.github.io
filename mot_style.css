@@ -1,0 +1,45 @@
+main {
+    height: 1040px;
+    text-align: center;
+    background-size: cover;
+    background-image: url(./images/recall.png);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.mot_content {
+    margin: 70px 0 0 50%;
+    transform: translate(-50%, 0);
+    height: 500px;
+    width: fit-content;
+    background-color: rgba(255, 255, 255, 0.39);
+    position: absolute;
+}
+
+
+.mot_content h1 {
+    font-family: 'Comic Neue', cursive;
+    font-size: 55px;
+    margin-top: 0;
+    padding-top: 30px;
+}
+
+.mot_content h2 {
+    font-family: 'Heebo', sans-serif;
+    font-style: italic;
+    font-size: 40px;
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(49, 48, 48);
+}
+
+.mot_content p {
+    width: 850px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bolder;
+    line-height: 45px;
+    font-size: 25px;
+    margin-left: auto;
+    margin-right: auto;
+}

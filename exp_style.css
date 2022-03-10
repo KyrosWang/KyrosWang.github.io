@@ -1,0 +1,139 @@
+
+
+.exp_box0 {
+    background-color: #E5E5E4;
+    height: 200px;
+    padding-top: 30px;
+}
+
+.exp_box0 h1 {
+    color: #787878;
+    font-size: 50px;
+    font-family: 'Suez One', serif;
+    font-weight: 200;
+    text-align: center;
+}
+
+
+.exp_box_s1 {
+    background-color: #D2D2D2;
+    height: 450px;
+}
+
+.exp_s1 {
+    background-color: #D2D2D2;
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 30px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp_box1 {
+    background-color: #E5E5E4;
+    height: 450px;
+}
+
+.exp1 {
+    background-color: #E5E5E4;
+    height: 450px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 30px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp_content h1 {
+    float: left;
+    width: 700px;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 21px;
+    margin-bottom: 30px;
+    color: rgb(39, 39, 39);
+    line-height: 30px;
+}
+
+.date {
+    margin-top: 25px;
+    font-family: 'Merriweather Sans', sans-serif;
+    float:right;
+    font-size: 21px;
+    font-weight: 600;
+    color: #5c5c5c;
+}
+
+.font17px {
+    font-size: 17px;
+}
+
+.exp_content p {
+    width: 800px;
+    word-spacing: 3px;
+    text-align:justify;
+    text-justify:distribute-all-lines; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    line-height: 40px;
+    margin-left: 10px;
+    float: left;
+}
+
+.exp_box2 {
+    background-color: #D2D2D2;
+    height: 420px;
+}
+
+.exp2 {
+    background-color: #D2D2D2;
+    height: 420px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 30px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp2 a {
+    margin: 20px 45px 0 0;
+    float: right;
+    min-width: fit-content;
+    position: absolute;
+}
+
+
+.exp_box3 {
+    background-color: #E5E5E4;
+    height: 400px;
+}
+
+.exp3 {
+    background-color: #E5E5E4;
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 30px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.exp_box4 {
+    background-color: #D2D2D2;
+    height: 400px;
+}
+
+.exp4 {
+    background-color: #D2D2D2;
+    height: 400px;
+    padding-top: 30px;
+    padding-left: 80px;
+    padding-right: 30px;
+    max-width: 1080px;
+    margin-left: auto;
+    margin-right: auto;
+}
