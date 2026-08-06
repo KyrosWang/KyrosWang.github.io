@@ -2,71 +2,201 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Jiacheng Wang</title>
+    <meta name="description" content="Jiacheng Wang, Duke Ph.D. candidate working across quantitative developmental biology, biomedical image analysis, single-cell analysis, and spatial transcriptomics.">
+    <title>Jiacheng Wang | Quantitative Biology and Biomedical Image Analysis</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Suez+One&display=swap" rel="stylesheet">
 </head>
 <body>
-
-
-
-    <header><div class="WJC">Jiacheng Wang</div></header>
-        
-    <div class="box0">
-        <nav>
-            <a href="index.html" class="btn-0">Home</a>
-            <a href="Experience.html" class="btn-1">Experience</a>
-            <a href="Publication.html" class="btn-1">Publication</a>
-            <a href="Tests.html" class="btn-1">Tests</a>
-            <a href="Course.html" class="btn-1">Course</a>
-            <a href="Motto.html" class="btn-1">Motto</a>
-            <a href="Contact.html" class="btn-1">Contact</a>
+    <header class="site-header">
+        <a class="brand" href="#top" aria-label="Jiacheng Wang home">Jiacheng Wang</a>
+        <nav class="nav" aria-label="Primary navigation">
+            <a href="#research">Research</a>
+            <a href="#work">Work</a>
+            <a href="#publications">Publications</a>
+            <a href="#contact">Contact</a>
         </nav>
-    </div>
+    </header>
 
-
-    <main>
-        <div class="box1">
-            <div class="intro">
-                <img src="images/portrait.png" class="photo" >
-                <div class="intro_words">
-                    <h1>About Me</h1>
-                    <h2>Jiacheng Wang</h2>
-                    <p>Welcome to my website! I am an undergraduate student from the College of Life Science, Nankai University, Tianjin, China and I come from Shenzhen, Guangdong, China. I am currently searching for opportunities for my graduate study. This website was built for you to learn more about me, feel free to contact me if you have any suggestions or questions.</p>
-                    <a href="./Files_Download/CV_JiachengWang.pdf" target="_blank" class="btn-2_">Download my CV</a> 
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Ph.D. Candidate, Duke University School of Medicine</p>
+                <h1>Quantitative developmental biology, built from images, omics, and careful experiments.</h1>
+                <p class="hero-text">
+                    I study how physical pressure and genetic regulation shape the zebrafish inner ear. My work combines confocal imaging, CNN-based segmentation, 3D morphometrics, scRNA-seq, and spatial transcriptomics to turn complex tissue morphogenesis into measurable biology.
+                </p>
+                <div class="hero-actions" aria-label="Profile links">
+                    <a class="button primary" href="Files_Download/CV_JiachengWang.pdf" target="_blank" rel="noopener">Download CV</a>
+                    <a class="button" href="https://github.com/KyrosWang" target="_blank" rel="noopener">GitHub</a>
+                    <a class="button" href="https://www.linkedin.com/in/jiacheng-wang-024a1829a" target="_blank" rel="noopener">LinkedIn</a>
                 </div>
             </div>
-        </div>
+            <figure class="portrait-wrap">
+                <img src="images/portrait.png" alt="Portrait of Jiacheng Wang">
+                <figcaption>Durham, North Carolina</figcaption>
+            </figure>
+        </section>
 
-        <div class="box2">
-            <div class="education">
-                    <h1>Education</h1>
-                    <h2>09/2018 - 06/2022</h2>
-                    <p>B.S., Biology (Poling Class<span style="vertical-align: super;" class="super_13px">Honorous Degree</span>), Nankai University, Tianjin, China</p>
-                    <div class="edu_GPA">GPA: 91.09/100</div>
-                    <a href="Tests.html" class="btn-2_">Learn More</a> 
-                    <h2>09/2015 - 06/2018</h2>
-                    <div class="p2">
-                        High School, Shenzhen Foreign Language School
-                    </div>
+        <section class="quick-facts" aria-label="Profile summary">
+            <div>
+                <span>Current Role</span>
+                <strong>Ph.D. Candidate, Munjal Lab</strong>
             </div>
-        </div>
+            <div>
+                <span>Methods</span>
+                <strong>Imaging, ML, scRNA-seq, spatial omics</strong>
+            </div>
+            <div>
+                <span>Systems</span>
+                <strong>Zebrafish inner ear and organ morphogenesis</strong>
+            </div>
+            <div>
+                <span>Languages</span>
+                <strong>English and Chinese</strong>
+            </div>
+        </section>
+
+        <section class="section" id="research">
+            <div class="section-heading">
+                <p class="eyebrow">Research Focus</p>
+                <h2>How organs become reliable shapes</h2>
+            </div>
+            <div class="research-grid">
+                <article>
+                    <h3>Pressure and Morphogenesis</h3>
+                    <p>I investigate how endolymphatic pressure canalizes semicircular canal morphology and how genetic programs regulate this process during vestibular organ development.</p>
+                </article>
+                <article>
+                    <h3>Biomedical Image Analysis</h3>
+                    <p>I build segmentation and 3D analysis pipelines for confocal datasets, including CNN-based otic vesicle lumen segmentation, registration, and epithelial signal quantification.</p>
+                </article>
+                <article>
+                    <h3>Single-Cell and Spatial Omics</h3>
+                    <p>I integrate scRNA-seq and spatial transcriptomics to construct atlases of the otic vesicle during semicircular canal morphogenesis.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section work-section" id="work">
+            <div class="section-heading">
+                <p class="eyebrow">Selected Work</p>
+                <h2>Experimental depth with computational tooling</h2>
+            </div>
+            <div class="timeline">
+                <article>
+                    <div class="timeline-date">2023 to present</div>
+                    <div>
+                        <h3>Ph.D. Candidate, Munjal Lab, Duke University School of Medicine</h3>
+                        <p>Developed image-analysis and omics workflows for zebrafish inner ear morphogenesis, including otic vesicle lumen segmentation, quantitative confocal analysis, mutant scRNA-seq, and a multi-modal atlas of canal formation.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="timeline-date">2022</div>
+                    <div>
+                        <h3>Lab Rotations, Duke University</h3>
+                        <p>Worked on heart regeneration in the Poss Lab and BMP signaling in Drosophila embryogenesis in the Di Talia Lab.</p>
+                    </div>
+                </article>
+                <article>
+                    <div class="timeline-date">2020 to 2022</div>
+                    <div>
+                        <h3>Undergraduate and Visiting Research</h3>
+                        <p>Studied sympathetic neuron activity in heart regeneration at UCSF, E. coli K1 vesicle trafficking at Nankai University, and metabolic engineering strategies for fructooligosaccharide production.</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="section skills-section">
+            <div class="section-heading">
+                <p class="eyebrow">Toolkit</p>
+                <h2>Methods I use most</h2>
+            </div>
+            <div class="skill-groups">
+                <div>
+                    <h3>Computational</h3>
+                    <p>Python, PyTorch, NumPy, Pandas, Matplotlib, HPC workflows, statistical analysis, data visualization.</p>
+                </div>
+                <div>
+                    <h3>Omics</h3>
+                    <p>Seurat, Scanpy, pseudobulk analysis, GSEA, pseudotime, differential expression, spatial transcriptomics integration.</p>
+                </div>
+                <div>
+                    <h3>Experimental</h3>
+                    <p>Zebrafish embryology, microinjection, CRISPR-Cas9, pharmacological perturbation, confocal imaging, molecular cloning, transgenic line generation.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="publications">
+            <div class="section-heading">
+                <p class="eyebrow">Publications</p>
+                <h2>Selected research output</h2>
+            </div>
+            <div class="publication-list">
+                <article>
+                    <p class="pub-year">2026</p>
+                    <h3>Hydrostatic pressure shapes and canalizes semicircular canal morphology to ensure vestibular function</h3>
+                    <p>Wang, J.*, Heikes, K.L.*, Wu, Y., Briggs, A.B., Li, K., Suriato, N.E., Surapaneni, S., Horstmeyer, R., Bagnat, M., and Munjal, A. bioRxiv. Co-first authors.</p>
+                    <a href="https://doi.org/10.64898/2026.07.22.740136" target="_blank" rel="noopener">doi:10.64898/2026.07.22.740136</a>
+                </article>
+                <article>
+                    <p class="pub-year">2025</p>
+                    <h3>A self-limiting mechanotransduction feedback loop ensures robust organ formation</h3>
+                    <p>Mori, Y., Robin, P., Briggs, A.B., Levic, D.S., Wang, J., Heikes, K.L., Bagnat, M., Hannezo, E., and Munjal, A. Preprint.</p>
+                    <a href="https://doi.org/10.1101/2025.09.25.678607" target="_blank" rel="noopener">doi:10.1101/2025.09.25.678607</a>
+                </article>
+                <article>
+                    <p class="pub-year">2025</p>
+                    <h3>Versican controlled by Lmx1b regulates hyaluronate density and hydration for semicircular canal morphogenesis</h3>
+                    <p>Mori, Y., Smith, S., Wang, J., Eliora, N., Heikes, K., and Munjal, A. Development 152, dev203003.</p>
+                </article>
+                <article>
+                    <p class="pub-year">2020</p>
+                    <h3>Development of an efficient pathway construction strategy for rapid evolution of the biodegradation capacity of Pseudomonas putida KT2440</h3>
+                    <p>Zhao, Y., Che, Y., Zhang, F., Wang, J., Gao, W., Zhang, T., and Yang, C. Science of The Total Environment.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section education-section">
+            <div class="section-heading">
+                <p class="eyebrow">Education</p>
+                <h2>Training</h2>
+            </div>
+            <div class="education-grid">
+                <article>
+                    <span>2022 to present</span>
+                    <h3>Duke University School of Medicine</h3>
+                    <p>Ph.D. program in Cell and Molecular Biology. GPA: 3.985/4.</p>
+                </article>
+                <article>
+                    <span>2018 to 2022</span>
+                    <h3>Nankai University, College of Life Sciences</h3>
+                    <p>Bachelor of Science, Biology Poling Class. GPA: 89.57/100.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="contact-section" id="contact">
+            <div>
+                <p class="eyebrow">Contact</p>
+                <h2>Open to computational biology, biomedical imaging, and biology research conversations.</h2>
+            </div>
+            <div class="contact-links">
+                <a href="mailto:jiacheng.wang@duke.edu">jiacheng.wang@duke.edu</a>
+                <a href="https://github.com/KyrosWang" target="_blank" rel="noopener">github.com/KyrosWang</a>
+                <a href="https://www.linkedin.com/in/jiacheng-wang-024a1829a" target="_blank" rel="noopener">LinkedIn profile</a>
+            </div>
+        </section>
     </main>
 
-    <footer>
-        <div class="contactinfo_top">jiachengwang@mail.nankai.edu.cn</div>
-        <div class="contactinfo">+86 13554809850</div>
-        <div class="contactinfo_bottom">©2021 by Jiacheng Wang.<br><a href="https://beian.miit.gov.cn/">粤ICP备2021084009号</a></div>
+    <footer class="footer">
+        <p>© 2026 Jiacheng Wang. Built for GitHub Pages.</p>
     </footer>
-
-
-
-
-    
 </body>
 </html>
